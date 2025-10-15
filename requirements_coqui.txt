@@ -1,0 +1,25 @@
+# Requirements for REAL Voice Cloning (Coqui TTS)
+# Requires Python 3.9, 3.10, or 3.11
+
+# Core TTS
+TTS==0.22.0
+
+# Deep Learning
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Web Framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Video Processing
+moviepy>=1.0.3
+
+# Audio Processing
+pydub>=0.25.1
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Additional dependencies
+librosa>=0.10.0
+soundfile>=0.12.0
