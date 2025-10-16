@@ -6,6 +6,7 @@ __pycache__/
 .Python
 env/
 venv/
+venv311/
 ENV/
 build/
 develop-eggs/
@@ -25,6 +26,8 @@ wheels/
 
 # Temporary files
 temp/
+uploads/
+outputs/
 *.wav
 *.mp3
 *.mp4
@@ -34,6 +37,12 @@ temp/
 
 # Output
 output/
+
+# FFmpeg
+ffmpeg-master-latest-win64-gpl-shared/
+
+# Deployment folders
+huggingface_deploy/
 
 # Model cache
 .cache/
